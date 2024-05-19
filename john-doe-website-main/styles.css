@@ -1,0 +1,282 @@
+.navbar {
+    background-color: #1e1e1e !important; /* Assurez-vous que la couleur de fond est correctement appliquée */
+}
+
+.navbar-brand {
+    margin-right: auto; /* Pousse le logo à gauche et les liens à droite */
+}
+
+.navbar-nav li a {
+    color: white; /* Assurez-vous que la couleur du texte est blanche pour une meilleure lisibilité */
+}
+
+.nav-link {
+    margin-right: 20px; /* Espacement entre les liens */
+}
+
+/* Styles supplémentaires pour ajuster l'espacement et la réactivité */
+@media (max-width: 992px) {
+    .navbar-nav {
+        margin-top: 20px; /* Ajustez selon vos besoins pour les petits écrans */
+    }
+}
+
+.hero-image {
+    background-image: url('images/image\ de\ base\ 1.jpg'); /* Remplacez par le chemin de votre image */
+    background-color: #cccccc; /* Utilisé si l'image n'est pas chargée */
+    height: 600px; /* Ajustez la hauteur selon vos besoins */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.skill {
+    margin-bottom: 20px; /* Espace entre les compétences */
+}
+
+.progress {
+    height: 20px; /* Hauteur des barres de progression */
+}
+
+.progress-bar {
+    transition: width 2s ease-in-out; /* Animation douce de la barre de progression */
+}
+
+
+@media (max-width: 768px) {
+    .img-fluid {
+        margin-bottom: 20px;
+    }
+}
+
+.footer {
+    background-color: #f8f9fa; /* Gris clair pour le fond */
+    color: #333; /* Gris foncé pour le texte */
+    padding: 20px 0; /* Espacement interne */
+}
+
+.footer p, .footer a {
+    color: #333; /* Couleur du texte */
+}
+
+.footer a {
+    text-decoration: none; /* Pas de soulignement */
+}
+
+.footer ul {
+    padding-left: 0; /* Pas de padding à gauche */
+    list-style-type: none; /* Pas de puces */
+}
+
+.social-icons a {
+    display: inline-block; /* Icônes sur la même ligne */
+    margin-right: 10px; /* Espacement entre les icônes */
+}
+
+.social-icons img {
+    width: 24px; /* Taille des icônes */
+    height: auto; /* Hauteur automatique pour garder le ratio */
+}
+.sub-footer {
+    background-color: #1e1e1e; /* Couleur de fond foncée */
+    color: #ffffff; /* Texte blanc */
+    text-align: center; /* Centre le texte horizontalement */
+    padding: 10px 0; /* Ajoute un peu de padding vertical pour l'espace */
+    font-size: 14px; /* Taille de la police modérée */
+}
+.blog-hero img {
+    width: 100%;
+    height: auto;
+    display: block; /* Assure que l'image ne laisse pas d'espace autour */
+}
+.card {
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+
+.blog-header {
+    text-align: center; /* Centre le contenu */
+    margin-bottom: 30px; /* Espacement avant les cartes d'articles */
+}
+
+.blog-title {
+    font-size: 28px; /* Taille du titre */
+    font-weight: bold; /* Gras pour le titre */
+    color: #333; /* Couleur du texte */
+    margin-bottom: 10px; /* Petit espace avant la description */
+}
+
+.blog-description {
+    font-size: 16px; /* Taille de la description */
+    color: #666; /* Couleur plus claire pour la description */
+}
+
+.blog-divider {
+    width: 50px; /* Largeur de la barre */
+    border-top: 4px solid #007BFF; /* Épaisseur et couleur de la barre */
+    margin: 20px auto; /* Centré et espace autour */
+}
+.portfolio-hero img {
+    width: 100%;
+    height: auto;
+    display: block; /* Assure que l'image ne laisse pas d'espace autour */
+}
+.card {
+    margin-bottom: 20px; /* Espace entre les cartes */
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px; /* Ajustez la hauteur si nécessaire */
+    object-fit: cover; /* Assure que les images couvrent bien toute la zone sans être déformées */
+}
+
+.card-body {
+    position: relative;
+    padding: 15px; /* Assure un bon espacement intérieur */
+}
+
+.small {
+    font-size: 0.8em; /* Ajustez la taille de police si nécessaire */
+    color: #666; /* Couleur du texte pour la description technique */
+    margin-bottom: 10px; /* Espacement avant le bouton */
+}
+
+.btn-primary {
+    width: 100%; /* Optionnel: pour étendre le bouton sur toute la largeur de la carte */
+}
+.title-divider {
+    border-top: 4px solid #007BFF; /* Couleur bleue pour la ligne */
+    width: 50px; /* Largeur de la ligne */
+    margin: 0 auto 20px; /* Centré horizontalement et avec un espace en bas */
+}
+.services-hero img {
+    width: 100%;
+    height: auto;
+    display: block; /* Assure que l'image s'affiche sans espace autour */
+}
+.service-card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+}
+
+.title-divider {
+    border-top: 3px solid #007BFF; /* Couleur bleue pour la ligne */
+    width: 50px; /* Largeur de la ligne */
+    margin: 20px auto; /* Centré horizontalement */
+}
+.card {
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Ombre subtile pour la carte */
+    transition: transform 0.3s; /* Animation de transformation pour hover */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Effet de zoom au survol */
+}
+
+.card-body {
+    padding: 2rem; /* Plus d'espace à l'intérieur de la carte */
+}
+
+.card-title {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem; /* Espacement standard pour le titre */
+}
+
+.fa-2x {
+    font-size: 2em; /* Icone plus grande */
+}
+
+.text-primary {
+    color: #007bff; /* Couleur bleue par défaut de Bootstrap pour les icônes */
+}
+.service-heading h2 {
+    font-size: 24px; /* Taille de police pour le titre */
+    font-weight: 600; /* Gras pour le titre */
+    margin-bottom: 10px; /* Espace entre le titre et la description */
+}
+
+.service-heading p {
+    font-size: 16px; /* Taille de police pour la description */
+    color: #666; /* Couleur grise pour la description */
+    margin-bottom: 20px; /* Espace entre la description et la ligne */
+}
+
+.title-divider {
+    border-top: 3px solid #007BFF; /* Ligne bleue épaisse */
+    width: 50px; /* Largeur de la ligne */
+    margin: auto; /* Centrer la ligne horizontalement */
+}
+.contact-hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.title-divider {
+    border-top: 3px solid #007BFF; /* Ligne bleue épaisse */
+    width: 50px; /* Largeur de la ligne */
+    margin: 20px auto 40px; /* Centré horizontalement avec un peu plus d'espace en bas */
+}
+
+.container h4 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.btn-primary {
+    background-color: #007BFF; /* Couleur bleue de Bootstrap */
+    border: none;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .row > div {
+        margin-bottom: 20px;
+    }
+}
+.title-divider {
+    border-top: 3px solid #007BFF; /* Ligne bleue épaisse */
+    width: 100px; /* Largeur de la ligne ajustée */
+    margin: 10px auto 20px; /* Centré horizontalement avec espace en dessous */
+}
+
+.card-header .btn-link {
+    text-decoration: none; /* Enlever le soulignement du texte */
+    color: #007bff; /* Couleur pour correspondre à votre thème */
+    font-weight: bold; /* Texte en gras */
+}
+
+.card-header .btn-link:hover, .card-header .btn-link:focus {
+    text-decoration: none; /* Garder sans soulignement au survol */
+    color: #0056b3; /* Couleur au survol */
+}
+@media (max-width: 768px) {
+    .custom-class {
+      font-size: 14px;
+      padding: 10px;
+    }
+  }
+  
+

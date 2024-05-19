@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>John Doe - Développeur Web</title>
+    <link rel="icon" href="icones/favicon.png" type="image/png"> <!-- Ajout de la favicon -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #1e1e1e;">
+        <div class="container">
+            <a class="navbar-brand" href="#">John Doe</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="service.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Réalisations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Image de fond avec titre -->
+<div class="hero-image">
+    <div class="hero-text">
+        <h1>Bonjour, je suis John Doe</h1>
+        <p>Développeur web full stack</p>
+        <a href="#about" class="btn btn-primary">En savoir plus</a>
+    </div>
+</div>
+
+<!-- Section À propos -->
+<section id="about" class="container mt-5">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="images/àpropos2.jpg" alt="John Doe" class="img-fluid mb-3" style="max-width: 100%; height: 250px;">
+        </div>
+        <div class="col-md-6">
+            <h2>À propos</h2>
+            <p>Passionné par l'informatique et les nouvelles technologies, j'ai suivi une formation d'intégrateur-développeur web avec CEF. Au cours de cette formation, j'ai acquis des bases solides pour travailler dans le domaine du développement web.<br>Basé à Lyon, je suis à la recherche d'une alternance au sein d'une agence digitale pour consolider ma formation en développement web full stack. J'accorde une attention particulière à la qualité du code que j'écris et je respecte les bonnes pratiques du web</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <h3>Mes compétences</h3>
+            <div class="skill">HTML5 <div class="progress"><div class="progress-bar" style="width:90%"></div></div></div>
+            <div class="skill">CSS3 <div class="progress"><div class="progress-bar bg-success" style="width:80%"></div></div></div>
+            <div class="skill">JavaScript <div class="progress"><div class="progress-bar bg-warning" style="width:70%"></div></div></div>
+            <div class="skill">PHP <div class="progress"><div class="progress-bar bg-danger" style="width:60%"></div></div></div>
+            <div class="skill">React <div class="progress"><div class="progress-bar bg-info" style="width:50%"></div></div></div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+    
+
+    <!-- Footer -->
+    <footer class="footer bg-light">
+        <div class="container">
+            <div class="row">
+                <!-- Informations de contact -->
+                <div class="col-md-3">
+                    <p><strong>John Doe</strong></p>
+                    <p>40 Rue Laure Diebold<br>Lyon, France 69009</p>
+                    <p>Téléphone :  06 77 10 28 20</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/johndoe" target="_blank"><img src="icones/linkedin_social_5085.png" alt="LinkedIn"></a>
+                        <a href="https://github.com/johndoe" target="_blank"><img src="icones/Social-26-Github-Outline_icon-icons.com_66350.png" alt="GitHub"></a>
+                        <a href="https://twitter.com/johndoe" target="_blank"><img src="icones/social-twitter-outline_icon-icons.com_49997.png" alt="Twitter"></a>
+                    </div>
+                </div>
+                <!-- Liens utiles -->
+                <div class="col-md-3">
+                    <p><strong>Liens utiles</strong></p>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="portfolio.html">À propos</a></li>
+                        <li><a href="service.html">Services</a></li>
+                        <li><a href="contact.html">Me contacter</a></li>
+                        <li><a href="Mentionslégales.html">Mentions légales</a></li>
+                    </ul>
+                </div>
+                <!-- Dernières réalisations -->
+                <div class="col-md-3">
+                    <p><strong>Mes dernières réalisations</strong></p>
+                    <ul class="list-unstyled">
+                        <li>Fresh food</li>
+                        <li>Restaurant Akira</li>
+                        <li>Espace bien-être</li>
+                    </ul>
+                </div>
+                <!-- Derniers articles -->
+                <div class="col-md-3">
+                    <p><strong>Mes derniers articles</strong></p>
+                    <ul class="list-unstyled">
+                        <li>Coder son site en HTML/CSS</li>
+                        <li>Vendre ses produits sur le web</li>
+                        <li>Se positionner sur Google</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="sub-footer">
+        © Designed by John Doe
+    </div>
+    
+    
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
